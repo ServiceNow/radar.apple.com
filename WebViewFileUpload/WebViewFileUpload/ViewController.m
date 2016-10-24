@@ -11,9 +11,6 @@
 
 
 #pragma mark -
-@interface ViewController ()
-@end
-
 
 @implementation ViewController
 
@@ -23,12 +20,5 @@
     SampleWebViewController *webVC = [[SampleWebViewController alloc] init];    
     [self presentViewController:webVC animated:YES completion:nil];
 }
-
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
-
 
 @end
