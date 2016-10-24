@@ -20,10 +20,8 @@
 
 - (IBAction)showWebview:(id)sender
 {
-    SampleWebViewController *webVC = [[SampleWebViewController alloc] init];
-    UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:webVC];
-    
-    [self presentViewController:navController animated:YES completion:nil];
+    SampleWebViewController *webVC = [[SampleWebViewController alloc] init];    
+    [self presentViewController:webVC animated:YES completion:nil];
 }
 
 

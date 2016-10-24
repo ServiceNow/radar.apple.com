@@ -18,6 +18,7 @@
 		5722BEB51DBA8B35001D7629 /* SampleWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5722BEB41DBA8B35001D7629 /* SampleWebViewController.m */; };
 		5722BEB71DBA8ED9001D7629 /* page.html in Resources */ = {isa = PBXBuildFile; fileRef = 5722BEB61DBA8ED9001D7629 /* page.html */; };
 		5722BEB91DBA8FB3001D7629 /* SampleWebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5722BEB81DBA8FB3001D7629 /* SampleWebViewController.xib */; };
+		57260BD51DBE860700EA3BF1 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 57260BD41DBE860700EA3BF1 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		5722BEB41DBA8B35001D7629 /* SampleWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleWebViewController.m; sourceTree = "<group>"; };
 		5722BEB61DBA8ED9001D7629 /* page.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = page.html; sourceTree = "<group>"; };
 		5722BEB81DBA8FB3001D7629 /* SampleWebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SampleWebViewController.xib; sourceTree = "<group>"; };
+		57260BD41DBE860700EA3BF1 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 		5722BE741DBA8AC3001D7629 = {
 			isa = PBXGroup;
 			children = (
+				57260BD41DBE860700EA3BF1 /* README.md */,
 				5722BE7F1DBA8AC3001D7629 /* WebViewFileUpload */,
 				5722BE991DBA8AC3001D7629 /* WebViewFileUploadTests */,
 				5722BEA41DBA8AC3001D7629 /* WebViewFileUploadUITests */,
@@ -291,6 +294,7 @@
 			files = (
 				5722BE881DBA8AC3001D7629 /* ViewController.m in Sources */,
 				5722BE851DBA8AC3001D7629 /* AppDelegate.m in Sources */,
+				57260BD51DBE860700EA3BF1 /* README.md in Sources */,
 				5722BE821DBA8AC3001D7629 /* main.m in Sources */,
 				5722BEB51DBA8B35001D7629 /* SampleWebViewController.m in Sources */,
 			);

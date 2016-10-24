@@ -15,7 +15,7 @@
         <view contentMode="scaleToFill" id="B5u-wz-dhM">
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
             <color key="tintColor" red="1" green="0.11343544407894737" blue="1" alpha="1" colorSpace="calibratedRGB"/>
             <point key="canvasLocation" x="18" y="52"/>
         </view>
