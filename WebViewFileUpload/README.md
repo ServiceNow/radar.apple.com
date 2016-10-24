@@ -3,7 +3,7 @@ The WKWebView file upload flow is incorrectly dismissing the UIDocumentMenuViewC
 
 ### Description
 When a view controller with a WKWebView view is presented from another view controller and we try to upload a file with an html form, we get prompted with UIDocumentMenuViewController's options. After selecting any of the options, the WKWebView view controller is being dismissed and a UIImagePickerViewController is never presented.
-This is because the WKWebView view controller receives two "dismissViewController:animated:"" calls instead of just one which causes our WKWebView to be incorrectly dismissed.
+This is because the WKWebView view controller receives two "dismissViewController:animated:" calls instead of just one which causes our WKWebView to be incorrectly dismissed.
 
 ### Steps to Reproduce
 1. Create custom view controller with WKWebView view instance.
@@ -19,10 +19,10 @@ UIImagePickerController should be presented
 ### Actual Results
 My ViewController that contains WKWebView is being dismissed
 
-Configuration:
+###Configuration:
 iPhone 6s Plus 64GB
 
-Version & Build:
+###Version & Build:
 iOS 10.1
 
 ### Additional Notes
