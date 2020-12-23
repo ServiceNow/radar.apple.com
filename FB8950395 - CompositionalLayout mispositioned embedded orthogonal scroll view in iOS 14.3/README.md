@@ -1,6 +1,6 @@
 # Compositional Layout issue in iOS 14.3
 
-`iOS 14.3` introduces and issue where `Compositional Layout` might result in mispositioned `_UICollectionViewOrthogonalScrollerEmbeddedScrollView`s if the cell's `estimatedHeight` does not match its constraints. This worked fine priot to `iOS 14.3`.
+`iOS 14.3` introduces and issue where `Compositional Layout` might result in mispositioned `_UICollectionViewOrthogonalScrollerEmbeddedScrollView`s if the cell's `estimatedHeight` does not match its constraints. This worked fine prior to `iOS 14.3`.
 
 ## Details
 
