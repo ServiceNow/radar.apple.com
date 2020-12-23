@@ -28,7 +28,6 @@ class ViewController: UIViewController {
 // MARK: - Compositional Layout
 private extension ViewController {
     func generateLayout() -> UICollectionViewCompositionalLayout {
-        // Generate section layouts that are always estimated as 50 pixels high.
         UICollectionViewCompositionalLayout { (sectionIndex: Int, layoutEnvironment: NSCollectionLayoutEnvironment) -> NSCollectionLayoutSection? in
             guard let section = Section(rawValue: sectionIndex) else { return nil }
             
